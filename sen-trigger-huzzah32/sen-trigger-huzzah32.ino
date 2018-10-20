@@ -14,11 +14,10 @@
 #include <BLEServer.h>
 #include <BLE2902.h>
 #include "Elapsed.h"
+#include "Build_DeviceID.h"
 
 // See the following for generating UUIDs:
 // https://www.uuidgenerator.net/
-
-#define BLE_DEVICE_ID               "SEN Trigger ST0001"
 
 #define SVC_UUID_SIMPLESHOOT        "18753475-6c26-4974-b4c9-98ccc7074602"
 #define CHAR_UUID_SIMPLESHOOT_CMD   "1817b56c-bfae-43fa-801d-a1e90bf35381"
